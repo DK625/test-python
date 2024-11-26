@@ -1,1 +1,1 @@
-web: source /layers/heroku_python/venv/bin/activate && python server.py
+web: PYTHONPATH=/layers/heroku_python/venv/lib/python3.10/site-packages python server.py
